@@ -1,3 +1,4 @@
+--Filter Bypass Script.
 game.Players.ChildAdded:connect(function(plry)
 	if plry:IsA("Player") then
 		plry.Chatted:connect(function(msg)
